@@ -34,6 +34,7 @@ div.testo p{
 /* background color */
 .bg-pink {
   background-color: pink;
+  border-radius: 15px;
 }
 .bg-yellow{
     background-image: url('../img/banner.jpg');
