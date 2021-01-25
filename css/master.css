@@ -6,6 +6,7 @@
 
 div.testo p{
   display: inline;
+  padding-left: 1em;
 }
 /* .clearfix  */
 .row:after {
@@ -40,13 +41,13 @@ div.testo p{
     background-image: url('../img/banner.jpg');
     height: 550px;
     border-radius: 15px;
-    filter: brightness(80%);
+    color: white;
 }
 .bg-lightblue{
-  width: 100%;
   margin-bottom: 2em;
   padding-left: 10px;
   padding-right: 10px;
+  height: 500px;
 }
 .bg-purple{
   height: 50px;
@@ -80,7 +81,7 @@ div.testo p{
   height: 60px;
 }
 .ht-3{
-  height: auto;
+  height: 100px;
 }
 .logo{
   height: 60px;
@@ -88,9 +89,10 @@ div.testo p{
   border-radius: 15px;
 }
 .text{
-  color: white;
   padding-top: 380px;
   padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
 }
 .testo p{
   color: grey;
@@ -99,7 +101,29 @@ div.testo p{
   color: grey;
   padding-top: 8px;
 }
+.testo-2d h4{
+  padding-top: 204px;
+}
+.testo-2d p{
+  padding-top: 8px;
+  color: gray;
+}
+
 .img{
   border-radius: 10px;
   filter: brightness(80%);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
 }
+.immagine{
+  border-radius: 10px;
+  filter: brightness(80%);
+  height: 200px;
+  width: 100%;
+}
+
+ #computer{
+   background-image: url('../img/banner-2.jpg');
+ }
